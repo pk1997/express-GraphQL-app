@@ -1,0 +1,26 @@
+{
+  "name": "graph",
+  "version": "1.0.0",
+  "description": "An express graphql simple server api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk1997/express-GraphQL-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pk1997/express-GraphQL-app/issues"
+  },
+  "homepage": "https://github.com/pk1997/express-GraphQL-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "loadash": "^1.0.0",
+    "loads": "0.0.4"
+  }
+}
