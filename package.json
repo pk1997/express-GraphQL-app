@@ -21,6 +21,7 @@
     "express-graphql": "^0.7.1",
     "graphql": "^14.0.2",
     "loadash": "^1.0.0",
-    "loads": "0.0.4"
+    "loads": "0.0.4",
+    "lodash": "^4.17.11"
   }
 }
