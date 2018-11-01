@@ -1,6 +1,11 @@
 {
     "users":[
-        { "id":"23", "firstName":"Pavan","age":20},
-        { "id":"42", "firstName":"pk","age":25}
+        { "id":"23", "firstName":"Pavan","age":20,"companyID":"2"},
+        { "id":"42", "firstName":"pk","age":25,"companyID":"1"},
+        { "id":"43", "firstName":"najmus","age":46,"companyID":"1"}
+    ],
+    "companies":[
+        {"id":"1","name":"google","desc":"mobile"},
+        {"id":"2","name":"apple","desc":"search"}
     ]
 }
