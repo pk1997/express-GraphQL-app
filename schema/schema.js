@@ -7,12 +7,21 @@ const{
     GraphQLSchema
 }=graphql;
 
+const CompanyType = new GraphQLObjectType({
+    name:"company",
+    fields:{
+        id:{type:GraphQLString},
+        name:{type:GraphQLString},
+        desc:{type:GraphQLString}
+    }
+})
 const UserType = new GraphQLObjectType({
     name: 'User',
     fields : {
         id:{type:GraphQLString} ,
         firstName:{type:GraphQLString} ,
-        age: {type:GraphQLInt}
+        age: {type:GraphQLInt},
+        company:{type:CompanyType}
     }
 });
  const RootQuery = new GraphQLObjectType({
