@@ -100,7 +100,7 @@ const mutation = new GraphQLObjectType({
             },
             resolve(parentValue,args)
             {
-                return axios.patch(`http://localhost:3000/${args.id}`,args).then(res=>res.data)
+                return axios.patch(`http://localhost:3000/users/${args.id}`,args).then(res=>res.data)
             }
         }
     }
